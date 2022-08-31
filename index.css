@@ -21,8 +21,9 @@ body {
 }
 
 .sidebar h1 {
+    font-family: 'Rubik', sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .sidebar ul {
@@ -34,7 +35,7 @@ body {
 .sidebar li {
     margin-top: 10%;
     transition: .3s;
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     position: relative;
     right: 34px;
@@ -42,6 +43,7 @@ body {
     padding: 12px;
     width: 159px;
     border-radius: 12px;
+    font-size: 1rem;
 }
 
 .sidebar a {
@@ -67,4 +69,14 @@ body {
     left: 223px;
     top: 12px;
     border-radius: 12px;
+}
+
+.rect {
+    width: 90%;
+    height: 15%;
+    background: white;
+    border-radius: 23px;
+    position: relative;
+    left: 5%;
+    top: 5%;
 }
