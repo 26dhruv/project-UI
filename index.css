@@ -4,21 +4,22 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #1e1e1e;
+  background-color: black;
+  overflow-y: hidden;
 }
 .side_bar {
   height: 805px;
   width: 40px;
   min-width: 200px;
   border-radius: 11px;
-  background: #323232;
+  background: #1e1e1e;
   position: relative;
   top: 6px;
   left: 6px;
 }
 .side_bar ul {
   position: relative;
-  top: 50px;
+  top: 80px;
   left: 26px;
   list-style: none;
 }
@@ -41,28 +42,21 @@ body {
   transition: 1ms;
 }
 .side_bar li:hover {
-  background-color: red;
+  background-color:#323232;
 }
 .side_bar li i {
   padding-right: 7px;
 }
-.profile {
-  position: relative;
-  top: 2%;
-  left: 32%;
-  height: 70px;
-  width: 70px;
-  background: red;
-  border-radius: 50%;
-}
 .container {
-  background-color: #ff1e56;
+  background-color: #1e1e1e;
   width: 1420px;
-  height: 805px;
+  height: 1000px;
+  overflow: scroll;
   position: absolute;
   left: 214px;
   top: 6px;
   border-radius: 12px;
+  
 }
 .white_rect {
   width: 95%;
@@ -73,7 +67,7 @@ body {
   top: 20px;
   left: 35px;
 }
-#profile_name {
+#Greetings {
   font-family: "Rubik", sans-serif;
   color: white;
   font-weight: 400;
@@ -93,4 +87,58 @@ body {
   border: none;
   font-family: "Rubik", sans-serif;
   font-style: italic;
+}
+.profile {
+  position: relative;
+  top: 400px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+  background: white;
+  border-radius: 50%;
+}
+.profile_name{
+  background-color: white;
+  height: 50px;
+  width: 180px;
+  position: relative;
+  top: 400px;
+  left: 10px;
+}
+.side_bar h2{
+  position: relative;
+  top: 15px;
+  font-family: "Rubik", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+.white_rect_left{
+  height: 358px;
+  width: 865px;
+  position: relative;
+  background-color: white;
+  top: 55px;
+  left: 36px;
+  border-radius: 24px;
+}
+.white_rect_right{
+  height: 357px;
+  width: 362px;
+  position: relative;
+  background-color: white;
+  border-radius: 24px;
+  left: 978px;
+  bottom: 305px;
+}
+.white_rect_bottom{
+  height:400px ;
+  width: 1299px;
+  background-color: white;
+  border-radius: 24px;
+  position: relative;
+  bottom: 243px;
+  left: 39px;
+margin-right: 0%;
+margin: 0%;
 }
