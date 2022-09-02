@@ -51,11 +51,12 @@ body {
   background-color: #1e1e1e;
   width: 1420px;
   height: 1000px;
-  overflow: scroll;
+  overflow: auto;
   position: absolute;
   left: 214px;
   top: 6px;
   border-radius: 12px;
+
   
 }
 .white_rect {
