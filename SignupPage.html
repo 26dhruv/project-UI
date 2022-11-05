@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Signup</title>
     <!-- CSS LINK  -->
-    <link rel="stylesheet" href="LoginPage.css">
+    <link rel="stylesheet" href="SignupPage.css">
     <!-- FONT LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,11 +26,11 @@
 <body>
     <div class="bgimg"><img src="figma/Saly-10.png" alt=""></div>
     <div class="container">
-        <h1>Sign in<h1>
-                <h6>If you don't have an account register <br> You can <a href="#">Register here !</a></h6>
+        <h1>Sign up<h1>
+                <h6>If you already have an account register <br> You can <a href="#">Login here !</a></h6>
                 <img src="figma/20221105_112458.png" width="70px" height="70px" alt=""><br>
-                <form action="#" method="post">
-                    <label>Email</label>
+                <form action="#" method="post" id="regis_form">
+                    <label>Email</label><br>
                     <span id="email_img">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-envelope-fill" viewBox="0 0 16 16">
@@ -38,8 +38,19 @@
                                 d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
                         </svg>
                     </span>
-                    <input type="email" id="email" placeholder="Enter your username"><br>
-                    <label>Password</label>
+                    <input type="email" id="email" placeholder="Enter your email"><br>
+
+                    <label>Username</label><br>
+                    <span id="user_img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                        </svg>
+                    </span>
+                    <input type="text" id="user_name" placeholder="Enter your username"><br>
+
+                    <label>Password</label><br>
                     <span id="pass_img">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-key-fill" viewBox="0 0 16 16">
@@ -47,14 +58,21 @@
                                 d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                         </svg>
                     </span>
-                    <input type="password" id="pass" placeholder="Enter your Password">
-                    <input type="checkbox" id="remeberme">
-                    <label id="Rememebr_me">Rememebr me</label>
-                    <a href="#" id="forg_pass_link">Forgot Password ?</a>
-                    <input type="submit" value="Sign In" id="Signin_btn">
+                    <input type="password" id="pass" placeholder="Enter your Password"><br>
+
+                    <label>Confirm Password</label><br>
+                    <span id="conf_pass_img">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-key-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                        </svg>
+                    </span>
+                    <input type="password" id="conf_pass" placeholder="Confirm your Password"><br>
+
+                    <input type="submit" value="Register" id="Register_btn">
                 </form>
     </div>
-
 </body>
 
 </html>
