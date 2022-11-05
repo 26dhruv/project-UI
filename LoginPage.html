@@ -32,7 +32,7 @@
                 <form action="#" method="post">
                     <label>Email</label>
                     <span id="email_img">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="greyd"
                             class="bi bi-envelope-fill" viewBox="0 0 16 16">
                             <path
                                 d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
@@ -41,20 +41,30 @@
                     <input type="email" id="email" placeholder="Enter your username"><br>
                     <label>Password</label>
                     <span id="pass_img">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey"
                             class="bi bi-key-fill" viewBox="0 0 16 16">
                             <path
                                 d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                         </svg>
                     </span>
                     <input type="password" id="pass" placeholder="Enter your Password">
+                    <span id="unlock"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey"
+                            class="bi bi-unlock-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M11 1a2 2 0 0 0-2 2v4a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h5V3a3 3 0 0 1 6 0v4a.5.5 0 0 1-1 0V3a2 2 0 0 0-2-2z" />
+                        </svg></span>
+                    <span id="lock"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey"
+                            class="bi bi-lock-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                        </svg></span>
                     <input type="checkbox" id="remeberme">
                     <label id="Rememebr_me">Rememebr me</label>
                     <a href="#" id="forg_pass_link">Forgot Password ?</a>
                     <input type="submit" value="Sign In" id="Signin_btn">
                 </form>
     </div>
-
+    <script src="LoginPage.js"></script>
 </body>
 
 </html>

@@ -132,3 +132,19 @@ body {
   top: 96px;
   left: 110px;
 }
+#lock {
+  list-style: none;
+  cursor: pointer;
+  position: absolute;
+  left: 494px;
+  top: 480px;
+}
+
+#unlock {
+  list-style: none;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0%;
+  left: 494px;
+  top: 480px;
+}

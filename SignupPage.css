@@ -106,3 +106,35 @@ form span {
   position: relative;
   top: 2px;
 }
+#lock_pass {
+  list-style: none;
+  cursor: pointer;
+  position: absolute;
+  left: 392px;
+  top: 233px;
+}
+
+#unlock_pass {
+  list-style: none;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0%;
+  left: 392px;
+  top: 233px;
+}
+#lock_conf {
+  list-style: none;
+  cursor: pointer;
+  position: absolute;
+  left: 392px;
+  top: 327px;
+}
+
+#unlock_conf {
+  list-style: none;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0%;
+  left: 392px;
+  top: 327px;
+}
