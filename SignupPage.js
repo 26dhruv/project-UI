@@ -13,19 +13,19 @@ conflock.addEventListener("click", () => {
         confunlock.style.opacity = 0;
     }
 })
-let lock = document.getElementById("lock")
-let unlock = document.getElementById("unlock")
-lock.style.opacity = 100;
-lock.addEventListener("click", () => {
+let passlock = document.getElementById("lock_pass")
+let passunlock = document.getElementById("unlock_pass")
+passlock.style.opacity = 100;
+passlock.addEventListener("click", () => {
     if (pass.type == "password") {
         pass.setAttribute("type", "text");
-        lock.style.opacity = 0;
-        unlock.style.opacity = 100;
+        passlock.style.opacity = 0;
+        passunlock.style.opacity = 100;
 
     }
     else {
         pass.setAttribute("type", "password");
-        lock.style.opacity = 100;
-        unlock.style.opacity = 0;
+        passlock.style.opacity = 100;
+        passunlock.style.opacity = 0;
     }
 })

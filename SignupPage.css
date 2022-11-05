@@ -55,7 +55,7 @@ body {
   position: relative;
   top: 69px;
   left: 125px;
-  width: 471px;
+  width: 449px;
 }
 .container label {
   font-family: "Poppins";
@@ -71,8 +71,8 @@ body {
 #pass,
 #user_name,
 #conf_pass {
-  width: 429px;
   border: none;
+  width: 429px;
   background: transparent;
   border-bottom: 2px solid #000842;
   font-family: "Poppins";
