@@ -7,18 +7,14 @@ body {
   background-color: white;
 }
 .bgimg {
+  background-image: url(figma/illustration-startup-business_53876-9144.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 543px;
+  width: 1000px;
   position: absolute;
-  width: 87vh;
-  height: 49vw;
-  left: 922px;
-  top: 6px;
-  background: #000842;
-  border-radius: 10px;
-}
-.bgimg img {
-  position: relative;
-  left: 100px;
-  top: 160px;
+  left: 601px;
+  top: 172px;
 }
 .container h1 {
   position: relative;

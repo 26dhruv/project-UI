@@ -7,24 +7,20 @@ body {
   background-color: white;
 }
 .bgimg {
+  background-image: url(figma/illustration-startup-business_53876-9144.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 543px;
+  width: 1000px;
   position: absolute;
-  width: 87vh;
-  height: 49vw;
-  left: 922px;
-  top: 6px;
-  background: #000842;
-  border-radius: 10px;
-}
-.bgimg img {
-  position: relative;
-  left: 100px;
-  top: 160px;
+  left: 601px;
+  top: 172px;
 }
 .container h1 {
   position: relative;
   width: 102px;
   height: 45px;
-  left: 124px;
+  left: 97px;
   top: 150px;
   font-family: "Poppins";
   font-style: normal;
@@ -42,7 +38,7 @@ body {
   position: absolute;
   width: 308px;
   height: 24px;
-  left: 124px;
+  left: 97px;
   top: 217px;
   font-family: "Poppins";
   font-style: normal;
